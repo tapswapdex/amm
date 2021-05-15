@@ -12,7 +12,7 @@
   "tokens": [
 
     {
-      "name": "TapSwap.Money",
+      "name": "tapswap.finance",
       "symbol": "TAPS",
       "address": "0x56eab07247e3e6404ac90140F20bba61375d5C3C",
       "chainId": 56,

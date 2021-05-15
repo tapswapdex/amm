@@ -277,7 +277,7 @@ const Swap = () => {
       {showBushWarning.current === true ? (
         <TextWarning>
           Thing about selling some $TAPS? <br/> Did you already visit the <ActionLink
-          href="https://tapswap.money/bush"
+          href="https://tapswap.finance/bush"
           target="_blank"
         >Smart Faucet</ActionLink>?
         </TextWarning>
