@@ -238,7 +238,7 @@ const Swap = () => {
         checkForSyrup(inputCurrency.symbol.toLowerCase(), 'Selling')
       }
 
-      showBushWarning.current = (inputCurrency.symbol === "TAPS")
+      showBushWarning.current = inputCurrency.symbol === 'TAPS'
     },
     [onCurrencySelection, setApprovalSubmitted, checkForSyrup, showBushWarning]
   )
@@ -272,16 +272,17 @@ const Swap = () => {
   `
 
   return (
-    <>      
+    <>
       <CardNav />
       {showBushWarning.current === true ? (
         <TextWarning>
-          Thing about selling some $TAPS? <br/> Did you already visit the <ActionLink
-          href="https://tapswap.finance/bush"
-          target="_blank"
-        >Smart Faucet</ActionLink>?
+          Thing about selling some $TAPS? <br /> Did you already visit the{' '}
+          <ActionLink href="https://tapswap.money/bush" target="_blank">
+            Smart Faucet
+          </ActionLink>
+          ?
         </TextWarning>
-        ): null }
+      ) : null}
       <AppBody>
         <Wrapper id="swap-page">
           <ConfirmSwapModal

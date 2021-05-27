@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://tapswap.finance',
+    href: 'https://tapswap.money',
   },
   {
     label: 'Trade',
@@ -13,13 +13,13 @@ const config: MenuEntry[] = [
       {
         label: 'Exchange',
         href:
-          'https://swape.tapswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+          'https://swape.tapswap.money/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
         target: '_blank',
       },
       {
         label: 'Liquidity',
         href:
-          'https://swape.tapswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+          'https://swape.tapswap.money/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
         target: '_blank',
       },
     ],
@@ -27,22 +27,22 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://tapswap.finance/#/farms',
+    href: 'https://tapswap.money/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://tapswap.finance/#/pools',
+    href: 'https://tapswap.money/#/pools',
   },
   {
     label: 'Smart Faucet',
     icon: 'BushIcon',
-    href: 'https://tapswap.finance/#/bush',
+    href: 'https://tapswap.money/#/bush',
   },
   // {
   //   label: 'Techrate Audit',
   //   icon: 'ShieldIcon',
-  //   href: 'https://tapswap.finance/files/audit_techrate.pdf',
+  //   href: 'https://tapswap.money/files/audit_techrate.pdf',
   //   target: '_blank',
   // },
   // {
@@ -112,15 +112,14 @@ const config: MenuEntry[] = [
   {
     label: 'Audit By Certik',
     icon: 'ShieldIcon',
-    href: 'https://tapswap.finance',
-    // href: 'https://tapswap.finance/files/audit_certik.pdf',
+    href: 'https://www.certik.org/projects/tapswapfinance',
+    // href: 'https://tapswap.money/files/audit_certik.pdf',
     // target: '_blank',
   },
   {
     label: 'Docs',
     icon: 'DocIcon',
-    href: 'https://tapswap.finance',
-    // href: 'https://tapswap.gitbook.io/tapswap/',
+    href: 'https://tapswap.gitbook.io/tapswap/',
     // target: '_blank',
   },
   {
@@ -133,7 +132,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/TapSwapV3',
+        href: 'https://github.com/tapswapdex',
         target: '_blank',
       },
       {
