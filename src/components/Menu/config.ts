@@ -27,17 +27,17 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://tapswap.finance/#/farms',
+    href: 'https://dapp.tapswap.finance/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://tapswap.finance/#/pools',
+    href: 'https://dapp.tapswap.finance/#/pools',
   },
   {
     label: 'Smart Faucet',
     icon: 'BushIcon',
-    href: 'https://tapswap.finance/#/bush',
+    href: 'https://dapp.tapswap.finance/#/bush',
   },
   // {
   //   label: 'Techrate Audit',
