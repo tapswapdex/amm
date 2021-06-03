@@ -62,6 +62,17 @@ export default function Pool() {
           <Button id="join-pool-button" as={Link} to="/add/ETH">
             <TranslatedText translationId={100}>Add Liquidity</TranslatedText>
           </Button>
+          <Button
+            id="join-pool-button"
+            as={Link}
+            to="/add/ETH"
+            style={{
+              marginTop: '10px',
+              background: '#a26553',
+            }}
+          >
+            <TranslatedText translationId={100}>Apeswap Discovery (Remove LP)</TranslatedText>
+          </Button>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
           <CardBody>
