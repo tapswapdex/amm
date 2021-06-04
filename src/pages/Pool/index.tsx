@@ -31,9 +31,10 @@ export default function Pool() {
     () => trackedTokenPairs.map((tokens) => ({ liquidityToken: toV2LiquidityToken(tokens), tokens })),
     [trackedTokenPairs]
   )
-  const liquidityTokens = useMemo(() => tokenPairsWithLiquidityTokens.map((tpwlt) => tpwlt.liquidityToken), [
-    tokenPairsWithLiquidityTokens,
-  ])
+  const liquidityTokens = useMemo(
+    () => tokenPairsWithLiquidityTokens.map((tpwlt) => tpwlt.liquidityToken),
+    [tokenPairsWithLiquidityTokens]
+  )
   const [v2PairsBalances, fetchingV2PairBalances] = useTokenBalancesWithLoadingIndicator(
     account ?? undefined,
     liquidityTokens
@@ -64,11 +65,12 @@ export default function Pool() {
           </Button>
           <Button
             id="join-pool-button"
-            as={Link}
-            to="/add/ETH"
             style={{
               marginTop: '10px',
               background: '#a26553',
+            }}
+            onClick={() => {
+              window.open('https://dex.apeswap.finance/#/pool')
             }}
           >
             <TranslatedText translationId={100}>Apeswap Discovery (Remove LP)</TranslatedText>
