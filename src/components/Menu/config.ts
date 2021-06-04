@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://tapswap.finance',
+    href: 'https://dapp.tapswap.finance',
   },
   {
     label: 'Trade',
