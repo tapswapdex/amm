@@ -4,23 +4,55 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://dapp.tapswap.finance',
+    href: 'https://swape.tapswap.finance',
   },
   {
-    label: 'Trade',
+    label: 'ApeSwap',
     icon: 'TradeIcon',
     items: [
       {
         label: 'Exchange',
         href:
           'https://swape.tapswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
-        target: '_blank',
       },
       {
         label: 'Liquidity',
         href:
-          'https://swape.tapswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
-        target: '_blank',
+         'https://swape.tapswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+      },
+      
+    ],
+    
+  },
+  {
+    label: ' PancakeSwap   V1',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'Exchange',
+        href:
+          'https://tapswapv1.netlify/#/swap',
+      },
+      {
+        label: 'Liquidity',
+        href:
+          'https://tapswapv1.netlify.app/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+      },
+    ],
+  },
+  {
+    label: ' PancakeSwap V2   ',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'Exchange',
+        href:
+          'https://pancakeswapv2.tapswap.finance/#/swap/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+      },
+      {
+        label: 'Liquidity',
+        href:
+          'https://pancakeswapv2.tapwswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
       },
     ],
   },
