@@ -31,12 +31,12 @@ const config: MenuEntry[] = [
       {
         label: 'Exchange',
         href:
-          'https://tapswapv1.netlify/#/swap',
+          'https://pancakeswapv1.tapswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
         href:
-          'https://tapswapv1.netlify.app/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+          'https://pancakeswapv1.tapswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
       },
     ],
   },
