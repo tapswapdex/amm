@@ -7,22 +7,25 @@ const config: MenuEntry[] = [
     href: 'https://dapp.tapswap.money',
   },
   {
-    label: 'Trade',
+    label: 'Dex Routing',
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',
+        label: 'ApeSwap',
         href:
-          'https://swape.tapswap.money/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
-        target: '_blank',
+        'https://swape.tapswap.money/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
       },
       {
-        label: 'Liquidity',
+        label: ' PancakeSwap   V1',
         href:
-          'https://swape.tapswap.money/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
-        target: '_blank',
+              'https://pancakeswapv1.tapswap.money/#/swap',
       },
-    ],
+      {
+        label: ' PancakeSwap V2   ',
+        href:
+              'https://pancakeswapv2.tapswap.money/#/swap/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+      },
+    ]
   },
   {
     label: 'Farms',
