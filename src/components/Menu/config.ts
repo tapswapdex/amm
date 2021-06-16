@@ -64,12 +64,28 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
-    label: 'Info',
+    label: 'Chart',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Token',
+        label: 'ApeSwap',
         href: 'https://info.apeswap.finance/token/0x56eab07247e3e6404ac90140f20bba61375d5c3c',
+        target: '_blank',
+      },
+      {
+        label: 'Dex Guro ',
+        href: 'https://dex.guru/token/0x56eab07247e3e6404ac90140f20bba61375d5c3c-bsc',
+        target: '_blank',
+      },
+      {
+        label: 'Bogged Chart',
+        href: 'https://charts.bogged.finance/?token=0x56eab07247e3e6404ac90140f20bba61375d5c3c',
+        target: '_blank',
+      },
+
+      {
+        label: 'PooCoin Chart',
+        href: 'https://poocoin.app/tokens/0x56eab07247e3e6404ac90140f20bba61375d5c3c',
         target: '_blank',
       },
       // {
@@ -83,28 +99,33 @@ const config: MenuEntry[] = [
       //   target: '_blank',
       // },
       // {
-      //   label: 'CoinGecko',
-      //   href: 'https://www.coingecko.com/en/coins/tapswaptoken',
-      // },
-      // {
-      //   label: 'CoinMarketCap',
-      //   href: 'https://coinmarketcap.com/currencies/tapswaptoken/',
+      //   label: 'PancakeSwap',
+      //   href: 'https://pancakeswap.info/token/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+      //   target: '_blank',
       // },
       // {
       //   label: 'Dapp.com',
       //   href: 'https://www.dapp.com/app/tapswap-exchange',
       //   target: '_blank',
       // },
-      // {
-      //   label: 'Dappradar.com',
-      //   href: 'https://dappradar.com/binance-smart-chain/defi/tapswap',
-      //   target: '_blank',
-      // },
-      // {
-      //   label: 'Bsc.news',
-      //   href: 'https://www.bsc.news/bsc-projects',
-      //   target: '_blank',
-      // },
+       {
+         label: 'Dappradar.com',
+        href: 'https://www.dapp.com/app/tapswap-exchange',
+        target: '_blank',
+       },
+      {
+         label: 'Bsc Projects',
+         href: 'https://bscproject.org/#/project/767',
+         target: '_blank',
+       },
+       {
+         label: 'CoinGecko',
+         href: 'https://www.coingecko.com/en/coins/tapswaptoken',
+       },
+       {
+         label: 'CoinMarketCap',
+         href: 'https://coinmarketcap.com/currencies/tapswaptoken/',
+       },
     ],
   },
   // {
