@@ -155,7 +155,8 @@ const config: MenuEntry[] = [
   {
     label: 'Docs',
     icon: 'DocIcon',
-    href: 'https://tapswap.gitbook.io/tapswap/',
+    href: 'https://tapswapmoney.gitbook.io/tapswap-dex/',
+    // href: 'https://tapswap.gitbook.io/tapswap/',
     // target: '_blank',
   },
   {
