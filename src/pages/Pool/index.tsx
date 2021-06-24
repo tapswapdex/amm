@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Pair } from '@tapswapv3/sdk'
-import { Button, CardBody, Text } from '@pancakeswap-libs/uikit'
+import { Button, CardBody, Text } from 'tapswap-uikit'
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
