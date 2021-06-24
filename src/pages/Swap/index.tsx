@@ -1,7 +1,7 @@
 import { CurrencyAmount, JSBI, Token, Trade } from '@tapswapv3/sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { ArrowDown } from 'react-feather'
-import { CardBody, ArrowDownIcon, Button, IconButton, Text, Alert, Flex, Link } from '@pancakeswap-libs/uikit'
+import { CardBody, ArrowDownIcon, Button, IconButton, Text, Alert, Flex, Link } from 'tapswap-uikit'
 import styled, { ThemeContext } from 'styled-components'
 import AddressInputPanel from 'components/AddressInputPanel'
 import Card, { GreyCard } from 'components/Card'
