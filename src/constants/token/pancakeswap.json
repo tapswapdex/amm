@@ -10,7 +10,6 @@
   "logoURI": "/images/coins/wbnb.png",
   "keywords": ["apeswap", "default"],
   "tokens": [
-
     {
       "name": "tapswap.money",
       "symbol": "TAPS",
@@ -18,7 +17,7 @@
       "chainId": 56,
       "decimals": 18
     },
-    
+
     {
       "name": "BSCCORE FINANCE",
       "symbol": "BSC",
@@ -34,39 +33,39 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/coins/MEMEX.svg"
-  },
-  {
-    "name": "DefyCoin",
-    "symbol": "DEFY",
-    "address": "0x0acbb2c3d3826b82b17c09e2dfa605b5279e0c63",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "/images/coins/DEFY.svg"
-  },
-  {
-    "name": "Tako Token",
-    "symbol": "TAKO",
-    "address": "0x2f3391aebe27393aba0a790aa5e1577fea0361c2",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "/images/coins/TAKO.svg"
-  },
-  {
-    "name": "Vox.Finance",
-    "symbol": "VOXb",
-    "address": "0xc227f8eecc481a8e8baa30a4754b109b81c4dfa4",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "/images/coins/VOXb.svg"
-  },
-  {
-    "name": "CROW",
-    "symbol": "CROW",
-    "address": "0xcc2e12a9b5b75360c6fbf23b584c275d52cddb0e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "/images/coins/CROW.svg"
-  },
+    },
+    {
+      "name": "DefyCoin",
+      "symbol": "DEFY",
+      "address": "0x0acbb2c3d3826b82b17c09e2dfa605b5279e0c63",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/DEFY.svg"
+    },
+    {
+      "name": "Tako Token",
+      "symbol": "TAKO",
+      "address": "0x2f3391aebe27393aba0a790aa5e1577fea0361c2",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/TAKO.svg"
+    },
+    {
+      "name": "Vox.Finance",
+      "symbol": "VOXb",
+      "address": "0xc227f8eecc481a8e8baa30a4754b109b81c4dfa4",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/VOXb.svg"
+    },
+    {
+      "name": "CROW",
+      "symbol": "CROW",
+      "address": "0xcc2e12a9b5b75360c6fbf23b584c275d52cddb0e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/CROW.svg"
+    },
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
@@ -527,6 +526,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/coins/COMP.svg"
+    },
+    {
+      "name": "My Defi Pet",
+      "symbol": "DPET",
+      "address": "0xfb62ae373aca027177d1c18ee0862817f9080d08",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://cdn.discordapp.com/attachments/847731075640066048/864032578473164810/Dpet_160px.png"
     }
   ]
 }
