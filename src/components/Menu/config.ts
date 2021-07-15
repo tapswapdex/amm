@@ -37,6 +37,10 @@ const config: MenuEntry[] = [
         label: ' PancakeSwap V2   ',
         href: 'https://pancakeswapv2.tapswap.finance/#/swap/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
       },
+      {
+        label: 'Multichain',
+        href: 'http://localhost:3000/swap?from=main',
+      },
     ],
   },
   {
