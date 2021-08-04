@@ -39,7 +39,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Multichain',
-        href: 'http://localhost:3000/swap?from=main',
+        href: 'https://polytaps.com/swap',
       },
     ],
   },
